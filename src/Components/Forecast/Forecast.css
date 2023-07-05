@@ -1,0 +1,77 @@
+.forecast1 {
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.forecast3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forecast4 {
+    width: 800px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.forecastIcons {
+    width: 10px;
+    margin: 0px 70px 0px 10px;
+    /* min-width: 70px; */
+}
+
+.days {
+    margin: 0px 270px 0px 0px;
+    min-width: 150px;
+}
+
+.description {
+    min-width: 150px;
+}
+
+.minTemperatureText {
+    font-size: 1rem;
+    color: #706f6f;
+    margin-right: 20px;
+    /* min-width: 70px; */
+}
+
+.maxTemperatureText {
+    font-size: 1rem;
+    color: #706f6f;
+}
+
+@media(max-width: 800px) {
+    .forecast4 {
+        width: 95vw;
+    }
+
+    .forecastIcons,
+    .days,
+    .description,
+    .minTemperatureText {
+        margin: 0px;
+        min-width: 0px;
+    }
+
+    .days,
+    .description,
+    .minTemperatureText {
+        margin: 0px 10vw 0px 10vw;
+    }
+
+
+}
